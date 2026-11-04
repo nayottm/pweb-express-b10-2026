@@ -1,0 +1,9 @@
+$kind: http-request
+description: |-
+  GET /api/skins?rarity=GRAND
+  Hasil yang benar: 200, totalItems 98
+url: http://localhost:3000/api/skins?rarity=GRAND
+method: GET
+queryParams:
+  rarity: GRAND
+order: 10000

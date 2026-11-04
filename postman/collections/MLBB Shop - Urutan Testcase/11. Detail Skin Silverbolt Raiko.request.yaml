@@ -1,0 +1,7 @@
+$kind: http-request
+description: |-
+  GET /api/skins/891
+  Hasil yang benar: 200, Silverbolt Raiko (Selena)
+url: http://localhost:3000/api/skins/891
+method: GET
+order: 11000

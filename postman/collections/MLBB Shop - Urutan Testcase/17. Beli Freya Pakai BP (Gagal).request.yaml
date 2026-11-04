@@ -1,0 +1,16 @@
+$kind: http-request
+description: |-
+  POST /api/players/3/heroes
+  Hasil yang benar: 400 (Freya tanpa harga BP)
+url: http://localhost:3000/api/players/3/heroes
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "heroId": 22,
+      "currency": "BP"
+    }
+order: 17000

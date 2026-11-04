@@ -1,0 +1,13 @@
+# Use this workspace to collaborate
+workspace:
+  id: f42443c5-1921-4848-836d-71eea1f2c9fa
+
+cloudResources:
+  collections:
+    ../postman/collections/MLBB Shop - Urutan Testcase: 35d3107a-999d-42f9-8f09-7e36d602fa7b
+
+# All resources in the `postman/` folder are automatically registered in Local View.
+# Point to additional files outside the `postman/` folder to register them individually. Example:
+#localResources:
+#  collections:
+#    - ../tests/E2E Test Collection/

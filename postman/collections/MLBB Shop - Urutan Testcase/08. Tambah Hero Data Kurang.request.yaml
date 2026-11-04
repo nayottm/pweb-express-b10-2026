@@ -1,0 +1,15 @@
+$kind: http-request
+description: |-
+  POST /api/heroes
+  Hasil yang benar: 400
+url: http://localhost:3000/api/heroes
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Kaiden"
+    }
+order: 8000

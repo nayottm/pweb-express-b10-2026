@@ -1,0 +1,20 @@
+$kind: http-request
+description: |-
+  POST /api/heroes
+  Hasil yang benar: 409
+url: http://localhost:3000/api/heroes
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Collie",
+      "role": "MAGE",
+      "lane": "MID",
+      "releaseYear": 2026,
+      "priceBP": 32000,
+      "priceDiamond": 599
+    }
+order: 7000

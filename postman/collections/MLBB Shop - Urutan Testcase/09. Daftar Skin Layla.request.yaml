@@ -1,0 +1,9 @@
+$kind: http-request
+description: |-
+  GET /api/skins?heroId=18
+  Hasil yang benar: 200, totalItems 11
+url: http://localhost:3000/api/skins?heroId=18
+method: GET
+queryParams:
+  heroId: "18"
+order: 9000

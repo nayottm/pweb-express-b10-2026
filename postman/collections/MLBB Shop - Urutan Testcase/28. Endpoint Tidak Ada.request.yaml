@@ -1,0 +1,7 @@
+$kind: http-request
+description: |-
+  GET /api/ngawur
+  Hasil yang benar: 404
+url: http://localhost:3000/api/ngawur
+method: GET
+order: 28000

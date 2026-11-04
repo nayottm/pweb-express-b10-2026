@@ -1,0 +1,7 @@
+$kind: http-request
+description: |-
+  GET /api/heroes/999
+  Hasil yang benar: 404
+url: http://localhost:3000/api/heroes/999
+method: GET
+order: 5000

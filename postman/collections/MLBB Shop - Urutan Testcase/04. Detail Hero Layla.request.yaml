@@ -1,0 +1,7 @@
+$kind: http-request
+description: |-
+  GET /api/heroes/18
+  Hasil yang benar: 200, Layla dengan 11 skin
+url: http://localhost:3000/api/heroes/18
+method: GET
+order: 4000

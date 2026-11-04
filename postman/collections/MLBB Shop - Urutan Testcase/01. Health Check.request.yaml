@@ -1,0 +1,7 @@
+$kind: http-request
+description: |-
+  GET /health
+  Hasil yang benar: 200
+url: http://localhost:3000/health
+method: GET
+order: 1000

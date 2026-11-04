@@ -1,0 +1,9 @@
+$kind: http-request
+description: |-
+  GET /api/heroes?search=la
+  Hasil yang benar: 200, totalItems 10
+url: http://localhost:3000/api/heroes?search=la
+method: GET
+queryParams:
+  search: la
+order: 3000

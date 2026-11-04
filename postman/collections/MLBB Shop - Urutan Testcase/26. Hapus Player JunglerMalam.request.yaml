@@ -1,0 +1,7 @@
+$kind: http-request
+description: |-
+  DELETE /api/players/4
+  Hasil yang benar: 200
+url: http://localhost:3000/api/players/4
+method: DELETE
+order: 26000

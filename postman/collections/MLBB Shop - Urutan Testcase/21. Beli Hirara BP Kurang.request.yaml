@@ -1,0 +1,16 @@
+$kind: http-request
+description: |-
+  POST /api/players/1/heroes
+  Hasil yang benar: 400 (BP kurang)
+url: http://localhost:3000/api/players/1/heroes
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "heroId": 133,
+      "currency": "BP"
+    }
+order: 21000

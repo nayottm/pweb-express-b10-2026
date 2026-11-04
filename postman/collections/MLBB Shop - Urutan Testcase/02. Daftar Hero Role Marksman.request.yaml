@@ -1,0 +1,10 @@
+$kind: http-request
+description: |-
+  GET /api/heroes?role=MARKSMAN&limit=5
+  Hasil yang benar: 200, totalItems 20
+url: http://localhost:3000/api/heroes?role=MARKSMAN&limit=5
+method: GET
+queryParams:
+  role: MARKSMAN
+  limit: "5"
+order: 2000
